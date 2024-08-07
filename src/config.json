@@ -1,0 +1,8 @@
+{
+    "clientID": "kfXtpsIm4jrK2CQkQ8SfYsytiFQa",
+    "signInRedirectURL": "https://localhost:3000",
+    "signOutRedirectURL": "https://localhost:3000",
+    "scope": ["profile","profile"],
+    "baseUrl": "https://api.asgardeo.io/t/universityofutah"
+}
+
