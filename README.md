@@ -6,7 +6,7 @@ This sample is developed to demonstrate the basic usage of the Asgardeo Auth Rea
 
 ### Prerequisites
 -   `Node.js` (version 10 or above).
-
+- change `config.json` file accordingly to change relevant configurations.
 
 
 ### Run the Application
