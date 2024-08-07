@@ -137,7 +137,7 @@ export const HomePage: FunctionComponent = (): ReactElement => {
 
         setEchoOutputChoreo({ ...echoOutputChoreo, status: 'loading', errorMessage: '' });
 
-        fetch("https://c5924961-7abb-43f1-9929-4a0c38f91e2e-nonprod.nonprod.uou.choreoapis.dev/trrm/api_tester/v0/" + path, {
+        fetch(authConfig?.APIBaseUrl + path, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
